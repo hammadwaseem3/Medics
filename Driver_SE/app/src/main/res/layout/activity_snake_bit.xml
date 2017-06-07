@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back123456"
+    tools:context="com.example.dell_pc.driver_se.FirstAid.SnakeBit">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="16dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/choking_txt"
+            android:textColor="#000F00"
+
+            android:textSize="17sp"
+            android:text="
+\n\n1)Assure the victim and do not let him panic. When under panic, it will enhance heart rate and would circulate the venom faster in the body.
+\n\n2)Remove any rings or constricting items; the affected area may swell.
+\n\n3)Stop lymphatic spread of venom - bandage firmly, splint and immobilise. The limb, which has been affected by the bite, should be immobilized with splint.
+\n\n4)Keep victim's hand as close to the level of the heart as possible as to slow the blood flow.
+\n\n5)Do not allow the victim to eat or to drink water in order to keep metabolism at low rate. No water No food is the golden rule.
+\n\n6)DO NOT COVER THE BITE AREA AND PUNCTURE MARKS. The wound should be gently cleaned with antiseptic.
+"
+            />
+
+        <ImageView
+
+            android:layout_marginTop="10dp"
+            android:layout_width="270dp"
+            android:layout_height="200dp"
+
+            android:layout_gravity="center"
+            android:src="@drawable/sn1"
+
+
+            />
+
+    </LinearLayout>
+</ScrollView>

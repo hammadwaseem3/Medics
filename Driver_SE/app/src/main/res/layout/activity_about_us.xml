@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back123456"
+    android:orientation="vertical"
+    tools:context="com.example.dell_pc.driver_se.FirstAid.About_us">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/exp2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="\nWhat is MEDIC?"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="#000F00"
+            android:text="MEDIC is an ambulance booking service that offers speed and agility in time-critical situations. You can call an ambulance to pick you up right away with our “CALL AMBULANCE” feature.\n"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:padding="10dp"
+            android:text="Why MEDIC?\n"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="118dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ambulanceicon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000F00"
+                android:textSize="16sp"
+                android:text="CALL AMBULANCE\nWith one press of a button, your exact location will be sent to the nearest ambulance driver." />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="82dp"
+                android:layout_margin="12dp"
+                android:adjustViewBounds="true"
+                android:maxHeight="96dp"
+                android:maxWidth="96dp"
+                android:src="@drawable/firstaid" />
+
+            <TextView
+                android:layout_width="256dp"
+                android:textColor="#000F00"
+                android:layout_height="116dp"
+                android:textSize="16sp"
+                android:text="FIRST AID\nWhile your ambulance is on its way, follow the step by step instructions for first-aid in any emergency situation." />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

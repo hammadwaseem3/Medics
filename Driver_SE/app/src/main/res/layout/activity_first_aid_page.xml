@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back123456"
+    tools:context="com.example.dell_pc.driver_se.FirstAid.FirstAidPage"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="16dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp"
+            android:padding="8dp"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/Choking_Img"
+                android:adjustViewBounds="true"
+                android:background="@drawable/border"
+                android:src="@drawable/choking_button"
+                android:maxWidth="42dp"
+                android:maxHeight="42dp"
+
+                android:layout_weight="0.3"
+                />
+
+            <Button
+                android:id="@+id/Choking_button"
+                android:layout_width="140dp"
+                android:layout_height="56dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginTop="8dp"
+                android:text="Choking"
+                android:background="@drawable/button_custom"
+                android:layout_weight="0.5"
+                android:onClick="Choking_Aid"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/border"
+            android:layout_marginBottom="16dp"
+            android:padding="8dp"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/Electric_shock_img"
+                android:background="@drawable/border"
+                android:src="@drawable/electric_shock_button"
+                android:adjustViewBounds="true"
+                android:maxWidth="42dp"
+                android:maxHeight="42dp"
+
+                android:layout_weight="0.3"
+                />
+
+            <Button
+                android:id="@+id/Electric_shock_Button"
+                android:layout_width="140dp"
+                android:layout_height="56dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/button_custom"
+                android:text="Electric Shock"
+                android:layout_weight="0.5"
+                android:onClick="Electric_shock_Aid"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:orientation="horizontal"
+            android:background="@drawable/border"
+            android:padding="8dp"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/Burns_Img"
+                android:background="@drawable/border"
+                android:adjustViewBounds="true"
+                android:src="@drawable/burn_button"
+                android:maxWidth="42dp"
+                android:maxHeight="42dp"
+                android:layout_weight="0.3"
+                />
+
+            <Button
+                android:id="@+id/Burns_Button"
+                android:layout_width="140dp"
+                android:layout_height="56dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/button_custom"
+                android:text="Burns"
+                android:onClick="Burns_Aid"
+
+                android:layout_weight="0.5" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/border"
+            android:padding="8dp"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/Cuts_img"
+                android:adjustViewBounds="true"
+                android:background="@drawable/border"
+                android:maxWidth="42dp"
+                android:maxHeight="42dp"
+                android:src="@drawable/cuts_button"
+                android:layout_weight="0.3"
+                />
+
+            <Button
+                android:id="@+id/Cuts_Button"
+                android:layout_width="140dp"
+                android:layout_height="56dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginTop="8dp"
+                android:onClick="Cuts_Aid"
+                android:background="@drawable/button_custom"
+                android:text="Cuts"
+
+                android:layout_weight="0.5" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/border"
+            android:padding="8dp"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/Snake_bite_img"
+                android:adjustViewBounds="true"
+                android:background="@drawable/border"
+                android:src="@drawable/snake_button"
+                android:maxWidth="42dp"
+                android:maxHeight="42dp"
+
+                android:layout_weight="0.3"
+                />
+
+            <Button
+                android:id="@+id/Snake_bite_button"
+                android:layout_width="140dp"
+                android:layout_height="56dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginTop="8dp"
+                android:onClick="Snake_bite_Aid"
+                android:background="@drawable/button_custom"
+                android:text="Snake bite"
+
+                android:layout_weight="0.5" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/border"
+            android:layout_marginBottom="16dp"
+            android:padding="8dp"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/Drowning_Img"
+                android:adjustViewBounds="true"
+                android:background="@drawable/border"
+                android:src="@drawable/button_drown"
+                android:maxWidth="42dp"
+                android:maxHeight="42dp"
+
+                android:layout_weight="0.3"
+                />
+
+            <Button
+                android:id="@+id/Drowning_Button"
+                android:layout_width="140dp"
+                android:layout_height="56dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginTop="8dp"
+                android:onClick="Drowning_Aid"
+                android:background="@drawable/button_custom"
+                android:text="Drowning"
+
+                android:layout_weight="0.5" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

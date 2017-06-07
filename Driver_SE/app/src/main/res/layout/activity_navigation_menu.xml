@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back123456"
+    tools:context="com.example.dell_pc.driver_se.NavigationMenu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="495dp"
+        android:orientation="vertical"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/firstAidImg"
+                android:layout_width="80dp"
+                android:background="@drawable/border"
+                android:layout_height="80dp"
+                android:layout_weight="0.3"
+                android:adjustViewBounds="true"
+                android:maxHeight="42dp"
+                android:maxWidth="42dp"
+                android:src="@drawable/firstaidimg" />
+
+            <Button
+                android:id="@+id/firstAidButton"
+                android:layout_width="140dp"
+                android:layout_height="56dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/button_custom"
+                android:text="First Aid"
+                android:layout_weight="0.5"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/settingImg"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/border"
+                android:layout_weight="0.3"
+                android:adjustViewBounds="true"
+                android:maxHeight="42dp"
+                android:maxWidth="42dp"
+                android:src="@drawable/settingimg" />
+
+            <Button
+                android:id="@+id/settingButton"
+                android:layout_width="140dp"
+                android:layout_height="56dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/button_custom"
+                android:text="Setting"
+                android:layout_weight="0.5"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/border"
+            android:padding="8dp"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/helpImg"
+                android:background="@drawable/border"
+                android:adjustViewBounds="true"
+                android:maxWidth="42dp"
+                android:maxHeight="42dp"
+                android:src="@drawable/helpiconimg"
+                android:layout_weight="0.3"
+                />
+
+            <Button
+                android:id="@+id/helpButton"
+                android:layout_width="140dp"
+                android:layout_height="56dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/button_custom"
+                android:text="Help"
+                android:layout_weight="0.5" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/border"
+            android:padding="8dp"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/aboutUsimg"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="0.3"
+                android:adjustViewBounds="true"
+                android:background="@drawable/border"
+                android:maxHeight="42dp"
+                android:maxWidth="42dp"
+                android:src="@drawable/aboutusimg" />
+
+            <Button
+                android:id="@+id/aboutUsbutton"
+                android:layout_width="140dp"
+                android:layout_height="56dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/button_custom"
+                android:text="About Us"
+                android:layout_weight="0.5" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/border"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/logOutImg"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="0.3"
+                android:adjustViewBounds="true"
+                android:background="@drawable/border"
+                android:maxHeight="42dp"
+                android:maxWidth="42dp"
+                android:src="@drawable/logoutimg" />
+
+            <Button
+                android:id="@+id/logOutButton"
+                android:layout_width="140dp"
+                android:layout_height="56dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/button_custom"
+                android:text="Logout"
+                android:layout_weight="0.5" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</ScrollView>

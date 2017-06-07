@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Driver_SE</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="save_username_password">Save Email and Password</string>
+</resources>

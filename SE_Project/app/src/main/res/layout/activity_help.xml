@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back123456"
+    tools:context="com.example.android.sadiq_features.help">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/exp1"
+            android:textColor="#000F00"
+            android:text="\nIt’s always our pleasure to help you!\nHere are some of the frequently asked questions which we hope can answer your inquiry:"
+            android:textSize="16sp" />
+
+        <TextView
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/exp2"
+            android:text="How does MEDIC work?"
+            android:textColor="#000F00"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000F00"
+            android:text="We thrive to make our customers’ lives our number one priority. MEDIC mobile application is available only on the Android platform for now, but we plan to take it to iOS and Web soon. We believe that every life matters and smartphones can go a long way in saving lives.\n"
+            android:textSize="16sp" />
+
+        <TextView
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:textColor="#000F00"
+            android:layout_height="wrap_content"
+            android:text="What cities does MEDIC operate in?"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000F00"
+            android:text="We are currently operating in the city of Karachi, Pakistan but we will soon extend our ambulance services to Lahore and Hyderabad as well. However, the app is available to download worldwide. We believe that our FIRST AID feature can prove to be the difference between life and death some day and want as many people to take advantage of our services as they can.\n"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000F00"
+            android:padding="10dp"
+            android:text="How can I register for MEDIC's services?"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:textColor="#000F00"
+            android:layout_height="wrap_content"
+            android:text="Every new MEDIC user has to register on our app by following the below steps:\n\n1) Open the MEDIC app and tap on (Sign Up) and move on to the next screen.\n\n2) You are offered to register by providing the requested information: valid email address, full name, contact number and password (kindly choose a complex one for security).\n\n3) Please tap on sign up after filling the relevant data.\n"
+            android:textSize="16sp" />
+
+        <TextView
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000F00"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:text="Congratulations! You are now ready to call an ambulance on one-touch if you ever need one!\n\n"/>
+        <TextView
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:textColor="#000F00"
+            android:layout_height="wrap_content"
+            android:text="\nNone of the above and need to contact us?\nPlease send us a message here: k142268@nu.edu.pk\n"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+
+
+    </LinearLayout>
+
+</ScrollView>

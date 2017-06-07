@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back123456"
+    tools:context="com.example.dell_pc.driver_se.signUpPageActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/border"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="15dp"
+            android:padding="10dp"
+            android:background="@drawable/border"
+            android:src="@drawable/medic_logo" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:orientation="vertical"
+            android:background="@drawable/border"
+            android:padding="15dp">
+
+            <EditText
+                android:id="@+id/signup_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textColor="#000000"
+                android:textColorHint="#A59FDD"
+                android:hint="Enter Email Id" />
+
+            <EditText
+                android:id="@+id/signup_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textColor="#000000"
+                android:textColorHint="#A59FDD"
+                android:hint="Enter Name" />
+            <EditText
+                android:id="@+id/signup_num"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textColor="#000000"
+                android:textColorHint="#A59FDD"
+                android:hint="Enter Contact number" />
+
+
+            <EditText
+                android:id="@+id/signup_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Enter Password"
+                android:textColor="#000000"
+                android:textColorHint="#A59FDD"
+                android:inputType="textPassword"/>
+
+            <EditText
+                android:id="@+id/signup_confirm_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Enter Password Again"
+                android:textColor="#000000"
+                android:textColorHint="#A59FDD"
+                android:inputType="textPassword"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/signup_button"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="15dp"
+            android:background="@drawable/button_custom"
+            android:text="Sign Up"
+            android:textAllCaps="false"
+            android:layout_weight="0.55" />
+
+    </LinearLayout>
+</ScrollView>

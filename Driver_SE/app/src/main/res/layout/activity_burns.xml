@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back123456"
+
+    tools:context="com.example.dell_pc.driver_se.FirstAid.Burns">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="16dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/choking_txt"
+            android:textSize="17sp"
+            android:textColor="#000F00"
+
+            android:text="1)Cool the skin with running cool or tepid water for at least 10 minutes. This will prevent the burn getting worse."
+            />
+
+        <ImageView
+
+            android:layout_marginTop="10dp"
+            android:layout_width="270dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src="@drawable/b1"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="17sp"
+            android:textColor="#000F00"
+
+            android:text="2)Do not use ice, iced water, creams, or greasy substances (such as butter) to soothe the burn.
+            \n\n3)Remove any clothes or jewellery from around the burn, unless they are sticking to it.
+            \n\n4)Cover the burn using strips of cling film, rather than wrapping it around a limb. A clean plastic bag is suitable to use for burns on your hand.
+            \n\n5)If the burn is painful, taking a mild painkiller, such as paracetamol or ibuprofen, can help.
+            \n\n6)Do not interfere with the burn, or break any blisters. If the burn is very painful, or seems to be getting worse, call an ambulance."
+            />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back123456"
+    tools:context="com.example.dell_pc.driver_se.FirstAid.Choking">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/choking_txt"
+            android:textSize="17sp"
+            android:textColor="#000F00"
+            android:text="1) Encourage the casualty to cough\n\n2) if they cannot clear the object themselves, support them with one hand while leaning them forwards:\n
+	                \u2022 Give up the five back blows between sholder blades\n\n
+	                \u2022 check their mouth"
+            />
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_width="270dp"
+            android:layout_height="200dp"
+
+            android:layout_gravity="center"
+            android:src="@drawable/c1"
+
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="17sp"
+            android:textColor="#000F00"
+            android:text="\u2022 If this doesn't work, then try this "
+
+            android:gravity="center"
+            />
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_width="270dp"
+            android:layout_height="200dp"
+
+            android:layout_gravity="center"
+            android:src="@drawable/c2"
+
+            />
+
+    </LinearLayout>
+
+</ScrollView>
